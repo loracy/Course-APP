@@ -9,19 +9,31 @@ export const ContentStack = StackNavigator({
   Content: {
     screen: ContentScreen,
   },
-});
+},
+{
+     headerMode: 'none',
+}
+);
 
 export const ContentTwoStack = StackNavigator({
   ContentTwo: {
     screen: ContentTwoScreen,
   },
-});
+},
+{
+     headerMode: 'none',
+}
+);
 
 export const ContentThreeStack = StackNavigator({
   Setting: {
     screen: ContentThreeScreen,
   },
-}); 
+},
+{
+     headerMode: 'none',
+}
+); 
 
 export const TabRouter = TabNavigator(
   {
@@ -52,6 +64,23 @@ export const TabRouter = TabNavigator(
   },
   {
     animationEnabled: 'true',
+    swipeEnabled: true,
+    tabBarPosition: 'top',
+    tabBarOptions: {
+      labelStyle: {
+          fontSize: 16,
+          height: 32,
+          bottom: 1,
+
+      },
+      style: {
+        backgroundColor: '#f7f7f7',
+        height: 50,        
+      },
+      activeTintColor: '#545454',
+      inactiveTintColor: '#dedede',
+    },
+    
   }
 );
 

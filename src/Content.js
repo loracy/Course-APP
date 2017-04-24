@@ -64,7 +64,7 @@ render() {
 }
 const styles = StyleSheet.create({
   position: {
-      top: 0
+      top: 0,
   },
   height: {
     

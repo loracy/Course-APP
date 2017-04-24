@@ -99,7 +99,7 @@ export class HomeSreen extends React.Component {
              onPress={() => navigate('Course')}
              backgroundColor='#6fa8dc'
              buttonStyle={{ position: 'relative', width: 65, height: 210, marginLeft: 0, padding: 3 }}
-             color='#000000'
+             color='#ffffff'
              fontSize={14}
             />
             <Button 
@@ -202,7 +202,7 @@ export const Header = StackNavigator({
             onPress={() => navigate('EditInfo')}
           />
         ),
-      })
+      }),
     },
   },
   EditInfo: {
@@ -262,8 +262,20 @@ export const Header = StackNavigator({
         ),
       })
     }
+  },
+  },
+  {
+    navigationOptions: {
+      header: {
+        style: {
+          elevation: 0,
+          shadow: 'none',
+
+        }
+      }
+    }
   }
 
-});
+);
 
 

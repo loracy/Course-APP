@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View, Text, StyleSheet, PixelRatio } from 'react-native';
+import { ScrollView, Text, StyleSheet, PixelRatio } from 'react-native';
 import { List, ListItem, Button, Icon } from 'react-native-elements';
 
 class EditInfo extends Component {
@@ -8,7 +8,7 @@ render() {
   const { position, height } = styles;
   const { goBack } = this.props.navigation;
   return (
-      <View style={position}>
+      <ScrollView style={position}>
         <List>
           <ListItem
             title='標題'
@@ -79,7 +79,7 @@ render() {
           raised
           buttonStyle={{ marginTop: 15, width: 200 * PixelRatio.get(), marginLeft: -20 }}
         />
-      </View>
+      </ScrollView>
   );
 }
 }
