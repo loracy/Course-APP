@@ -1,0 +1,21 @@
+dependencies: \
+  /Users/test/Desktop/APP-Course/wk8/node_modules/react-native/Libraries/Text/RCTText.m \
+  /Users/test/Desktop/APP-Course/wk8/node_modules/react-native/Libraries/Text/RCTText.h \
+  /Users/test/Desktop/APP-Course/wk8/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h \
+  /Users/test/Desktop/APP-Course/wk8/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
+  /Users/test/Desktop/APP-Course/wk8/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Users/test/Desktop/APP-Course/wk8/ios/build/Build/Products/Debug-iphonesimulator/include/React/UIView+React.h \
+  /Users/test/Desktop/APP-Course/wk8/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTComponent.h \
+  /Users/test/Desktop/APP-Course/wk8/node_modules/react-native/Libraries/Text/RCTShadowText.h \
+  /Users/test/Desktop/APP-Course/wk8/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTShadowView.h \
+  /Users/test/Desktop/APP-Course/wk8/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTRootView.h \
+  /Users/test/Desktop/APP-Course/wk8/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
+  /Users/test/Desktop/APP-Course/wk8/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
+  /Users/test/Desktop/APP-Course/wk8/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
+  /Users/test/Desktop/APP-Course/wk8/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Users/test/Desktop/APP-Course/wk8/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
+  /Users/test/Desktop/APP-Course/wk8/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
+  /Users/test/Desktop/APP-Course/wk8/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/test/Desktop/APP-Course/wk8/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/test/Desktop/APP-Course/wk8/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/test/Desktop/APP-Course/wk8/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTTextDecorationLineType.h
