@@ -54,6 +54,7 @@ render() {
             subtitleContainerStyle={{ height: 200, marginTop: 5 }}
             style={height}
             hideChevron
+            containerStyle={{ paddingBottom: 100, paddingTop: 15 }}
           />
         </List>
       </View>
@@ -63,12 +64,10 @@ render() {
 }
 const styles = StyleSheet.create({
   position: {
-    top: 100,
-    marginTop: 100,
-    zIndex: 100
+      top: 0
   },
   height: {
-    height: 200,
+    
   },
 });
 

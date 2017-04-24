@@ -1,16 +1,57 @@
 import React, { Component } from 'react';
-import { View, Text, StyleSheet, Button } from 'react-native';
-import { Tabs, Tab, Icon } from 'react-native-elements';
-// import TabNavigator from 'react-native-tab-navigator';
+import { TabNavigator, StackNavigator } from 'react-navigation';
+import ContentScreen from './Content';
+import ContentTwoScreen from './ContentTwo';
+import ContentThreeScreen from './ContentThree';
 
-import HomeView from './Content1';
 
-export class TabBar extends React.Component {
- 
-  render() {
-    return (
-      <Text> 55 </Text>
-    );
+export const ContentStack = StackNavigator({
+  Content: {
+    screen: ContentScreen,
+  },
+});
+
+export const ContentTwoStack = StackNavigator({
+  ContentTwo: {
+    screen: ContentTwoScreen,
+  },
+});
+
+export const ContentThreeStack = StackNavigator({
+  Setting: {
+    screen: ContentThreeScreen,
+  },
+}); 
+
+export const TabRouter = TabNavigator(
+  {
+    ContentStack: {
+      screen: ContentStack,
+      navigationOptions: {
+        tabBar: {
+          label: '課程資訊',
+        },
+      },
+    },
+    ContentTwoStack: {
+      screen: ContentTwoStack,
+      navigationOptions: {
+        tabBar: {
+          label: '待辦事項',
+        },
+      },
+    },
+    ContentThreeStack: {
+      screen: ContentThreeStack,
+      navigationOptions: {
+        tabBar: {
+          label: '出席率',
+        },
+      },
+    },
+  },
+  {
+    animationEnabled: 'true',
   }
-}
+);
 

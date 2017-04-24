@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 import { View, Text, StyleSheet, PixelRatio } from 'react-native';
 import { List, ListItem, Button, Icon } from 'react-native-elements';
-import HomeScreen from './Header';
-
-// const { goBack } = this.props.navigation;
 
 class EditInfo extends Component {
       
@@ -70,6 +67,7 @@ render() {
             subtitleContainerStyle={{ height: 100, marginTop: 5 }}
             style={height}
             hideChevron
+            containerStyle={{ paddingBottom: 100, paddingTop: 15 }}
           />
         </List>
         <Button 
@@ -91,7 +89,6 @@ const styles = StyleSheet.create({
     top: -20,
   },
   height: {
-    height: 200,
   },
   red: {
     color: 'red',

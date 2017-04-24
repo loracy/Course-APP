@@ -3,7 +3,6 @@ import { View, Text, StyleSheet } from 'react-native';
 import { Icon, Button } from 'react-native-elements';
 import { StackNavigator } from 'react-navigation';
 
-import ContentScreen from './Content';
 import CourseScreen from './Course';
 import EditInfoScreen from './EditInfo';
 import SettingScreen from './Setting';
@@ -187,12 +186,12 @@ export const Header = StackNavigator({
     },
   },
   Course: { 
-    screen: ContentScreen,
+    screen: CourseScreen,
     navigationOptions: {
       header: ({ navigate }) => ({
         tintColor: '#ffffff',
         style: { backgroundColor: '#6fa8dc' },
-        title: '課程名稱',
+        title: '運動按摩',
         right: (
           <Icon
             name='edit'
